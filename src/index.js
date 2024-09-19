@@ -1,25 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import { Button } from './App';
-import BootstrapTest from './BootstrapTest';
-import styled from 'styled-components';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import { Button } from "./App";
+import styled from "styled-components";
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const BigButton = styled(Button)`
-   margin: 0 auto;
-   width: 245px;
-   height: 45px;
-   text-align: center;
+  margin: 0 auto;
+  width: 245px;
+  height: 45px;
+  text-align: center;
 `;
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-   <React.StrictMode>
-      <App />
-      <BigButton as="a">Send report</BigButton>
-      <BootstrapTest />
-   </React.StrictMode>
+  <React.StrictMode>
+    <App />
+    <BigButton as="a">Send report</BigButton>
+  </React.StrictMode>
 );
