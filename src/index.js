@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
+import App158 from "./App158";
 import { Button } from "./App";
 import styled from "styled-components";
 
@@ -17,7 +17,6 @@ const BigButton = styled(Button)`
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
-    <BigButton as="a">Send report</BigButton>
+    <App158 />
   </React.StrictMode>
 );
